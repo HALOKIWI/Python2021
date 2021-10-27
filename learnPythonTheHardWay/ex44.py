@@ -31,5 +31,4 @@ son.implicit()
 son.override()
 son.altered()
 
-#all versions have been tested but renewed by later versions
-#used, syntax and punctuation use
+

@@ -12,4 +12,3 @@ print("The script is called: ", script)
 print("The second is called: ", second)
 print("The third is called: ", third)
 
-#deleted due to fewer argument on study drill

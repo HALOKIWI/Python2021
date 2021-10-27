@@ -1,4 +1,3 @@
-# create a function which prints stuff
 def cheese_and_crackers(cheese_count, boxes_of_crackers): 
     print ("You have %d cheeses:!" % cheese_count)
     print ("You have %d boxes of crackers!" % boxes_of_crackers) 
@@ -6,7 +5,7 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print ("Get a blanket.\n")
     print ("We can just give the function numbers directly:")
 # own design
-def fuck(you):
+def hello(you):
     for i in range(0,10):
         print(you + i)
 
@@ -40,13 +39,13 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 print("\n \n")
 
 # own design 10 times
-fuck(1)
-fuck(2)
-fuck(3)
-fuck(4)
-fuck(5)
-fuck(6)
-fuck(7)
-fuck(8)
-fuck(9)
-fuck(10)
+hello(1)
+hello(2)
+hello(3)
+hello(4)
+hello(5)
+hello(6)
+hello(7)
+hello(8)
+hello(9)
+hello(10)

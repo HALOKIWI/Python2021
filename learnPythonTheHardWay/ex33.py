@@ -28,7 +28,7 @@ forLoop(0, 13)
 
 '''
 study drill 5:
-no we don't need incrementor in the middle
+we don't need incrementor in the middle
 if we don't get rid of incrementor, then our value of i will be affected
 
 '''

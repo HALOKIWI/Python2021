@@ -16,10 +16,10 @@ print(grade)
 
 
 # drill 1
-# in python3, raw_input has been replaced by simply input. Basically input is for users to enter stuff
+# in python3, raw_input has been replaced by simply input. 
 
 # drill 2
-# sys.stdin.readline() is an alternative way of input()
+# sys.stdin.readline() is an alternative 
 
 # drill 4
 print('6\'2"')

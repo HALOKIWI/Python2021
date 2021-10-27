@@ -44,6 +44,5 @@ if not state:
 city = cities.get('TX', 'Does Not Exist')
 print("The city for the state 'TX' is: %s" % city)
 
-#notes: duplicate values override, len(), any data type, type()
-#no order
+
 

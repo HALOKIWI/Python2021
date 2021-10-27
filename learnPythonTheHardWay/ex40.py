@@ -24,4 +24,3 @@ happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
 
-#OOP is programming paradigm that relies on the concept of classes and objects

@@ -84,10 +84,4 @@ def start():
 
 start()
 
-'''
-1. yes i actually drew it, hidden--> either way kinda dead
-2. fixed
-3. too bad i understand
-4. there's a new function to expand, for simplification i simplified and imrpvoed gold room, which is similar to next study drill
- 
-'''
+
