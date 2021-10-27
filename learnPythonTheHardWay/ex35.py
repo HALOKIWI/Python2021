@@ -68,7 +68,7 @@ def dead(why):
 def start():
     print ("You are in a dark room.")
     print ("There is a door to your right and left. Or maybe you look up.")
-    print ("Which one do you take?")
+    print ("Which on do you take?")
 
     next = input("> ")
 
@@ -84,4 +84,10 @@ def start():
 
 start()
 
-
+'''
+1. yes i actually drew it, hidden--> either way kinda dead
+2. fixed
+3. tooooooo bad i understand
+4. there's a new function to expand, for simplification i simplified and imrpvoed gold room, which is similar to next study drill
+5. 
+'''

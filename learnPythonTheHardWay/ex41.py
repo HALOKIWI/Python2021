@@ -20,10 +20,12 @@ PHRASES = {
 "From *** get the *** attribute and set it to '***'."
 }
 
+# do they want to drill phrases first
 PHRASE_FIRST = False
 if len(sys.argv) == 2 and sys.argv[1] == "english":
     PHRASE_FIRST = True
 
+# load up the words from the website
 for word in urlopen(WORD_URL).readlines():
     WORDS.append(word.strip())
 
@@ -42,12 +44,15 @@ def convert(snippet, phrase):
     for sentence in snippet, phrase:
         result = sentence[:]
 
+    # fake class names
     for word in class_names:
         result = result.replace("%%%", word, 1)
 
+    # fake other names
     for word in other_names:
         result = result.replace("***", word, 1)
 
+    # fake parameter lists
     for word in param_names:
         result = result.replace("@@@", word, 1)
 
@@ -56,6 +61,7 @@ def convert(snippet, phrase):
     return results
 
 
+# keep going until they hit CTRL- D
 try:
     while True:
         snippets = PHRASES.keys()
